@@ -1,0 +1,178 @@
+
+
+.turu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.anos
+{
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: 226699;
+    width: 100%;
+}
+.box{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.turma{
+    margin: 10px;
+    background-color: 226699;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 10px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+}
+
+.txt1{
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #226599d5;
+    padding: 15px;
+    font-size: 30px;
+    text-align: justify;
+    padding: 50px;
+    color: white;
+    border-radius: 30px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: FFDE59;
+    margin-bottom: 30px;
+    margin-top:30px;
+   
+    
+}
+
+.turma:hover{
+    background-color: rgb(255, 255, 255);
+    color: 226699;
+    transition: 0.8s;
+    border-radius: 40px;
+    
+}
+
+.cont2 img{
+    width: 300px;
+}
+
+.cont2{
+    margin: 10px;
+}
+
+figcaption{
+    font-size: 30px;
+    text-align: center;
+}
+
+.l1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont2:hover{
+    opacity: 60%;
+    transition: 0.4s;
+}
+
+ /* RODAPE */
+
+.icones img{
+    width: 50px;
+    margin: 2px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 5px;
+    z-index: 100;
+    bottom: 5px;
+}
+
+
+body{
+    margin: 0px;
+}
+li{
+ 
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: 636363;
+    font-size: 16px;
+
+    
+}
+
+
+.baixo{
+    display: flex;
+    justify-content: center;
+    background-color: FFDE59;
+    padding: 70px;
+
+}
+
+.azul li a{
+   color:24368C;
+   font-size: 18px;
+   margin-bottom: 2px;
+   font-weight: bolder;
+
+   
+}
+/* FIM RODAPE */
+
+/* CREDITOS */
+
+.baixo1{
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    background-color: 226699;
+    padding: 80px;
+
+}
+
+.creditos li a{
+    color: white;
+    
+    
+}
+
+.p1{
+    font-size: 20px;
+    color: FFD734;
+    background-color:226699 ;
+    text-align: center;
+    
+}
+
+/* FIM CREDITOS */
+
+
+

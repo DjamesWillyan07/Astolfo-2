@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+.chapeu img{
+    width: 80px;
+}
+
+.chapeu{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h1{
+    text-align: center;
+    margin: 0;
+    color: #226699;
+}
+
+.escola img{
+    width: 1000px;
+    border-radius: 50px;
+}
+.escola{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.box{
+    justify-content: space-around;
+    display: flex;
+
+    
+}
+
+.geral{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.cont1 img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.txt1 p{
+    font-size: 30px;
+    text-align: justify;
+    align-self: center;
+}
+
+.txt1{
+   
+
+    width: 400px;
+    align-self: center;
+    
+}
+
+.cont1{
+    margin: 10px;
+}
+
+.txt2{
+    color: white;
+    width: 40%;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    background-color: #226699;
+    padding: 30px;
+    border-radius: 50px;
+
+}
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

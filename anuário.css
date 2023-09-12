@@ -1,0 +1,53 @@
+
+.aluno {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.Jaiminho.png {
+  align-items: center;
+}
+
+.aluno img {
+  width: 200px;
+  /* Ajuste o tamanho da imagem conforme necessário */
+  height: 200px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+.aluno:hover img {
+  transform: translateY(-5px);
+  /* Ajuste a quantidade de levitação desejada */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  /* Ajuste a cor e a intensidade da sombra conforme necessário */
+}
+
+.info-aluno {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(45, 122, 223, 0.8);
+  /* Ajuste a cor de fundo do texto */
+  padding: 10px;
+  color: #fff;
+  /* Ajuste a cor do texto */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.aluno:hover .info-aluno {
+  opacity: 1;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+}

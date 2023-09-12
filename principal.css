@@ -1,0 +1,236 @@
+.imagem{
+    justify-content: center;
+    text-align: center;
+    background-color:#069;
+    height: 230px;
+}
+
+/*Resetando os valores de espaçamento */
+*{
+    margin: 0;
+    padding: 0%;
+   
+}
+
+/*Estilizando a nav da classe menu */
+.menu{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+/*Estilizando as listas */
+.menu ul{
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu ul li{
+    width: 150px;
+    float: left;
+}
+
+.menu a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(0, 102, 153, 0.705);
+    color: #fff;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: visible;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: #f4f4f4;
+    color: #555;
+
+}
+
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.menu ul ul li a{
+background-color: #069;
+}
+
+/*Criando o label */
+label[for="bt_menu"]{
+    padding: 5px;
+    background-color: rgba(0, 102, 153, 0.413);
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+}
+
+#bt_menu{
+    display: none;
+}
+
+label[for=”bt_menu”]{
+    display: none;
+    }
+
+    label[for=”bt_menu”]{
+        display: none;
+        }
+
+#bt_menu:checked ~ .menu{
+    margin-left: 0;
+}
+
+.menu{
+    margin-top: 5px;
+    margin-left: -100%;
+    transition: all .4s;
+}
+
+.menu ul li{
+    width: 100%;
+    float: none;
+}
+
+.menu ul ul{
+    position: static;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 4s;
+}
+
+.menu ul li:hover ul{
+    height: auto;
+    max-height: 200px;
+}
+
+.menu ul ul li a{
+    background-color: rgba(0, 102, 153, 0.551);
+}
+
+.tudo{
+    margin-top: -228px;
+}
+
+.link a{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;    
+}
+
+.link{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.barra1{
+    background-color: FFDE59;
+    position: absolute;
+    padding-right: 449px;
+    padding-left: 370px;
+    padding-bottom: 11px;
+    margin-top: 100px;
+}
+
+.barra2{
+    background-color: FFDE59;
+    position:absolute;
+    padding-right: 449px;
+    padding-left: 370px;
+    padding-bottom: 11px;
+    right: 0px;
+    margin-top: -133px;
+}
+
+
+.home img{
+width: 35px;
+position: absolute;
+right: 0px;
+margin-top: -90px;
+}
+
+/* RODAPE */
+body{
+    margin: 0px;
+}
+li{
+ 
+    list-style: none;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: 636363;
+    font-size: 16px;
+
+    
+}
+
+
+.baixo{
+    display: flex;
+    justify-content: center;
+    background-color: FFDE59;
+    padding: 70px;
+
+}
+
+.azul li a{
+   color:24368C;
+   font-size: 18px;
+   margin-bottom: 2px;
+   font-weight: bolder;
+
+   
+}
+/* FIM RODAPE */
+/* CREDITOS */
+
+.baixo1{
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    background-color: 226699;
+    padding: 80px;
+
+}
+
+.creditos li a{
+    color: white;
+    
+    
+}
+
+.p1{
+    font-size: 20px;
+    color: FFD734;
+    background-color:226699 ;
+    text-align: center;
+    
+}
+
+/* FIM CREDITOS */
+
